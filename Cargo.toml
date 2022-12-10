@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 packed_struct = "0.10.1"
-socket2 = "0.4.7"
+socket2 = { version = "0.4.7", features = ["all"] }
